@@ -7,11 +7,12 @@ html {
   padding: 0;
 }
 body {
-  background-color: hsl(225, 100%, 94%);
+  background-color: auto;
 }
 .page {
   width: 375px;
   margin: 2rem auto;
+  padding-bottom: 5rem;
 
   background-color: hsl(225, 100%, 98%);
   border-radius: 20px;
@@ -26,4 +27,12 @@ img.illustration-hero {
   max-height: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+h1 {
+  padding-top: 1rem;
+}
+.price-plan {
+  display: flex;
+  align-items: center;
+  background: hsl(225, 100%, 96%);
 }
