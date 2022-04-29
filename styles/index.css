@@ -1,0 +1,65 @@
+/* Reset  */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: var(--ff-sans-serif), sans-serif;
+}
+img, picture {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* custom properties */
+:root {
+    --gap: 2rem;
+
+    /* COLORS 
+     * Primary {blues}
+    */
+    --clr-pale: 225 100 94;
+    --clr-bright: 245 75 52;
+
+    /* neutral {blues} */
+    --clr-very-pale: 225 100 98;
+    --clr-desaturated: 223 47 23;
+
+    /* TYPOGRAPHY
+     * font-family
+    */
+    --ff-sans-serif: 'Red Hat Display';
+
+    /* font-weight */
+    --fw-500: 500;
+    --fw-700: 700;
+    --fw-900: 900;
+}
+
+/*                  */
+/* Utility classes */
+/*                  */
+
+/* general */
+.container {
+    margin-top: 5px;
+    max-width: 80%;
+    margin-inline: auto;
+}
+.container, .container * {
+    outline: 1px solid blue;
+}
+.grid {
+    display: grid;
+    place-items: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.illustration-hero {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
